@@ -2,10 +2,12 @@
 fastapi==0.111.1
 uvicorn[standard]==0.23.2
 
+# CORS Middleware (included in FastAPI)
+# Do NOT add "fastapi.middleware.cors" as a package
 
 # Database
-SQLAlchemy==2.0.23       # ORM for PostgreSQL
-psycopg2-binary==2.9.7  # PostgreSQL driver
+SQLAlchemy==2.0.23
+psycopg2-binary==2.9.7
 
 # Data validation
 pydantic==2.5.2
