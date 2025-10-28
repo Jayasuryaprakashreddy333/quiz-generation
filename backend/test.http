@@ -1,0 +1,15 @@
+# POST request to generate quiz
+POST http://localhost:5000/generate-quiz
+Content-Type: application/json
+
+{
+    "url": "https://en.wikipedia.org/wiki/Subhas_Chandra_Bose"
+}
+
+# GET request to retrieve quiz by ID
+######
+GET http://localhost:5000/history/1
+
+######
+# GET request to retrieve all quiz history
+GET http://localhost:5000/history
