@@ -1,0 +1,37 @@
+# Node.js (Frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.vite/
+frontend/.DS_Store
+
+# Python (Backend)
+backend/venv/
+backend/__pycache__/
+backend/.env
+backend/.pytest_cache/
+backend/.DS_Store
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Build / Cache
+*.pyc
+*.pyo
+*.pyd
+*.db
+.env
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
